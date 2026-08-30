@@ -1,0 +1,73 @@
+figure {
+  text-align: center;
+}
+figure video {
+  max-width: 600px;
+}
+figcaption {
+  font-style: italic;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+  figure video {
+    max-width: 100%;
+  }
+}
+
+.grid {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.grid.five {
+  grid-template-columns: repeat(5, 50px);
+}
+.grid .cell {
+  aspect-ratio: 1;
+  border: 1px solid black;
+  display: grid;
+  font-weight: 800;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.grid .cell.alive {
+  background-color: #111;
+  font-weight: 800;
+  color: white;
+}
+
+ol {
+  margin-top: 0;
+}
+
+#life-example {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 931px) {
+  #life-example {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  #life-example {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 930px) {
+  #life-example {
+    grid-template-columns: 1fr 1fr;
+  }
+  #life-example .last {
+    grid-column: span 2;
+  }
+}
+figcaption {
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+}

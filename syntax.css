@@ -1,0 +1,47 @@
+/* The colours every highlighted block is written in. They came out of vim,
+   which is where the highlighters in build.sh come from: one palette, under the
+   name vim gives each kind of thing it paints.
+
+   span.Old is not a highlighter but the focus= attribute on a fence: it greys
+   out the lines of a block that are there for context, so that the lines being
+   talked about are the ones that read. */
+pre span.Statement {
+  color: #af5f00;
+}
+
+pre span.PreProc {
+  color: #c000c0;
+}
+
+pre span.Comment {
+  color: #0000c0;
+}
+
+pre span.Constant {
+  color: #c00000;
+}
+
+pre span.Special {
+  color: #c000c0;
+}
+
+pre span.Identifier {
+  color: #008080;
+}
+
+pre span.Type {
+  color: #008000;
+}
+
+pre span.WarningMsg {
+  color: #c00000;
+}
+
+/* a cmake command */
+pre span.ModeMsg {
+  font-weight: bold;
+}
+
+pre span.Old {
+  color: #AAAAAA;
+}

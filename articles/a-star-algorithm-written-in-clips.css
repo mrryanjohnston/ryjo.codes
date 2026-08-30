@@ -1,0 +1,82 @@
+#a-star-example {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 931px) {
+  #a-star-example {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  #a-star-example {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 930px) {
+  #a-star-example {
+    grid-template-columns: 1fr 1fr;
+  }
+  #a-star-example .last {
+    grid-column: span 2;
+  }
+}
+.grid-wrapper figcaption {
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.grid.nine {
+  grid-template-columns: repeat(9, 50px);
+}
+.grid.five {
+  grid-template-columns: repeat(5, 50px);
+}
+.grid .cell {
+  aspect-ratio: 1;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid .cell.end, .grid .cell.start {
+  background-color: blue;
+  color: white;
+  font-weight: 800;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.grid .cell.end.opened-end {
+  background-color: #aafffc;
+  color: black;
+}
+.grid .cell.closed {
+  background-color: #ffb5b5;
+}
+.grid .cell.open {
+  background-color: #b5ffb7;
+}
+.grid .cell.barrier {
+  background-color: #131313;
+}
+.grid .cell.complete {
+  background-color: blue;
+  color: white;
+}
+.g {
+  text-align: left;
+}
+.h {
+  text-align: right;
+}
+.f {
+  font-weight: 800;
+  grid-column-end: span 2;
+  text-align: center;
+}

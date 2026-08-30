@@ -1,0 +1,49 @@
+a {
+  color: #006600;
+}
+
+body {
+  color: #111;
+  font-family: sans-serif;
+  margin: 15px auto;
+  max-width: 1200px;
+  padding: 15px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+code {
+  background-color: #f6f8fa;
+  font-size: 12pt;
+  padding: 0.2em 0.4em;
+}
+
+ol, p, ul {
+  font-size: 14pt;
+  line-height: 1.5em;
+}
+
+pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  color: #000;
+  font-size: 12pt;
+  overflow: auto;
+  padding: 16px;
+}
+
+pre code {
+  background-color: inherit;
+  line-height: 1.5em;
+}
+
+#timeline img {
+  display: block;
+  margin: 0 auto 25px;
+}
+
+li {
+  margin-top: 20px;
+}

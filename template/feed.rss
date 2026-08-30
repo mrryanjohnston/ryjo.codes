@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>ryjo.codes Articles</title>
+    <description>Oh hai. I'm Ryan. Some of my friends call me "ryjo."</description>
+    <link>https://ryjo.codes/</link>
+    <language>en</language>
+    <lastBuildDate>@BUILDDATE@</lastBuildDate>
+    <pubDate>@BUILDDATE@</pubDate>
+@ITEMS@
+  </channel>
+</rss>

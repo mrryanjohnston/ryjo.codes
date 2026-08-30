@@ -1,0 +1,7 @@
+# The generated site. Everything in here comes out of build.sh.
+build
+
+# editor leftovers - swap files carry undo history, including deleted text
+*.swp
+*.swo
+*~

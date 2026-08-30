@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1200px) {
+  body {
+    margin: 15px auto;
+  }
+  h2#articles {
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    flex-direction: row;
+  }
+  #content {
+    flex: 4;
+  }
+
+  #timeline {
+    margin-top: 25px;
+    padding-left: 20px;
+    flex: 2;
+  }
+}
